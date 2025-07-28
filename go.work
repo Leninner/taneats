@@ -1,0 +1,10 @@
+go 1.24.2
+
+use (
+	./services/order-service
+	./shared
+)
+
+replace github.com/leninner/shared v0.0.0 => ./shared
+
+replace github.com/leninner/order-service v0.0.0 => ./services/order-service

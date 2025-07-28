@@ -1,0 +1,9 @@
+[submodule "services/order-service"]
+	path = services/order-service
+	url = https://github.com/leninner/order-service.git
+[submodule "services/restaurant-service"]
+	path = services/restaurant-service
+	url = https://github.com/leninner/restaurant-service.git
+[submodule "shared"]
+	path = shared
+	url = https://github.com/leninner/shared.git
