@@ -7,3 +7,6 @@
 [submodule "shared"]
 	path = shared
 	url = https://github.com/leninner/shared.git
+[submodule "infrastructure"]
+	path = infrastructure
+	url = https://github.com/leninner/infrastructure.git

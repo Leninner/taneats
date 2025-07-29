@@ -1,6 +1,7 @@
 go 1.24.2
 
 use (
+	./infrastructure
 	./services/order-service
 	./shared
 )
@@ -8,3 +9,5 @@ use (
 replace github.com/leninner/shared v0.0.0 => ./shared
 
 replace github.com/leninner/order-service v0.0.0 => ./services/order-service
+
+replace github.com/leninner/infrastructure v0.0.0 => ./infrastructure
